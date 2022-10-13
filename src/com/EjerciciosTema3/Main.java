@@ -1,3 +1,4 @@
+package com.EjerciciosTema3;
 public class Main {
     public static void main(String[] args) {
 
@@ -13,7 +14,6 @@ public class Main {
         System.out.println(resultado);
     }
 }
-
 class Coche {
     public int puertas = 3;
 
