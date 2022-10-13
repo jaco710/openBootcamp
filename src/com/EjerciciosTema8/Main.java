@@ -4,11 +4,11 @@ public class Main {
     public static void main(String[] args) {
         Persona persona1 = new Persona();
         persona1.setEdad(27);
-        System.out.println(persona1.getEdad());
+        System.out.println("La edad de la persona UNO es: "+persona1.getEdad());
         persona1.setNombre("Oscar");
-        System.out.println(persona1.getNombre());
+        System.out.println("El nombre de la persona UNO es: "+persona1.getNombre());
         persona1.setTelefono(4770006);
-        System.out.println(persona1.getTelefono());
+        System.out.println("El telefono de la persona UNO es: "+persona1.getTelefono());
     }
 }
 
@@ -21,18 +21,18 @@ class Persona {
         this.edad = edadPersona;
     }
     public int getEdad() {
-        return this.edad;
+        return edad;
     }
     public void setNombre(String nombrePersona) {
         this.nombre = nombrePersona;
     }
     public String getNombre() {
-        return this.nombre;
+        return nombre;
     }
     public void setTelefono(int telefonoPersona) {
         this.telefono = telefonoPersona;
     }
     public int getTelefono() {
-        return this.telefono;
+        return telefono;
     }
 }
